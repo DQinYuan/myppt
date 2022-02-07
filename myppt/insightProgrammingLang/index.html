@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+        <style type="text/css">
+            .rightHead {
+                font-size: 70%;
+                position: absolute;
+                top: -500px;
+                right: 10px
+            }
+        </style>
+		<link rel="stylesheet" href="../../dist/reset.css">
+		<link rel="stylesheet" href="../../dist/reveal.css">
+		<link rel="stylesheet" href="../../dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../../plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-auto-animate>
+                    <h3>为什么要探索编程语言实现原理？</h3>
+                    <div class="r-stack">
+                        <div class="fragment fade-in-then-out">
+                            <p>屠龙术？</p>
+                            <p>造轮子？</p>
+                        </div>
+                        <p class="fragment">实用的工程技术</p>
+                    </div>
+                </section>
+				<section data-auto-animate>
+                    <section data-auto-animate>
+                        <h3 style="font-size: 70%; position: fixed; top: 0; right: 0">
+                            为什么要探索编程语言实现原理？
+                        </h3>
+                        <h3>更深入的编程语言认知</h3>
+                    </section>
+                    <section data-auto-animate>
+                        <h3 style="font-size: 70%; position: fixed; top: 0; right: 0">
+                            更深入的编程语言认知
+                        </h3>
+                        <h3>值，引用？</h3>
+                        <img src="assets/value_or_ref.png"/>
+                        <p class="fragment fade-up">道理都懂，没有体感怎么办？</p>
+                    </section>
+                </section>
+			</div>
+		</div>
+
+		<script src="../../dist/reveal.js"></script>
+		<script src="../../plugin/notes/notes.js"></script>
+		<script src="../../plugin/markdown/markdown.js"></script>
+		<script src="../../plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
